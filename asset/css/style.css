@@ -302,14 +302,24 @@ nav {
     line-height: 2rem;
 }
 
+.products .sign-up-block{
+  position: relative;
+}
+
+.products .sign-up-block div a::before{
+  content: '';
+  position: absolute;
+  top: -40px; 
+  right: 0;
+  display: block;
+}
+
 .sign-up-block input{
     padding: 10px 140px 10px 10px;
     border-radius: 5px;     
 }
 
 .sign-up-block a{
-    /* padding: 9px; */
-    /* border-radius: 5px; */
     text-decoration: none;
     color: white
 }
